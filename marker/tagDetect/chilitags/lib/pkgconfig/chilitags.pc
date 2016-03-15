@@ -1,0 +1,10 @@
+prefix=C:/Program Files (x86)/chilitags
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: chilitags
+Description: Robust Fiducial Markers for Augmented Reality
+Version: 1.0.0
+Libs: -L${libdir} -lchilitags
+Cflags: -I${includedir}/chilitags
